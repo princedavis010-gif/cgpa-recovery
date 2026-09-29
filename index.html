@@ -169,10 +169,10 @@
 
         function resetData() {
             localStorage.removeItem('cgpaData');
-            document.getElementById('prevUnits').value = '0';
-            document.getElementById('prevCGPA').value = '0.00';
+            document.getElementById('prevUnits').value = '45';
+            document.getElementById('prevCGPA').value = '3.80';
             document.getElementById('targetCGPA').value = '4.50';
-            document.getElementById('coursesContainer.innerHTML = ''');
+            document.getElementById('coursesContainer').innerHTML = '';
             addCourseRow();
             calculateCGPA();
         }
